@@ -42,10 +42,28 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>io.papermc.paper</groupId>
+            <artifactId>paper-api</artifactId>
+            <version>1.20-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>23.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>mx.kenzie</groupId>
+            <artifactId>centurion-minecraft</artifactId>
+            <version>1.0.3</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
